@@ -1,0 +1,17 @@
+package stringsDemo;
+
+public class Mian {
+
+	public static void main(String[] args) {
+		String message = " The weather is beautiful today.";
+		System.out.println(message);
+		
+		
+		System.out.println("Eleman sayısı : "+message.length());
+		System.out.println("5. eleman :"+message.charAt(3));
+		
+		
+	}
+
+}
+//5.eleman 0'dan başladığımız için 4.indextir

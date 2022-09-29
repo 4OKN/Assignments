@@ -1,0 +1,39 @@
+package arraysDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String ogrenci1 = "Engin";
+		String ogrenci2 = "Derin";
+		String ogrenci3 = "Salih";
+		String ogrenci4 = "Ahmet";
+
+		System.out.println(ogrenci1);
+		System.out.println(ogrenci2);
+		System.out.println(ogrenci3);
+		System.out.println(ogrenci4);
+
+		System.out.println("------------------------");
+
+		String[] ogrenciler = new String[4];
+		ogrenciler[0] = "Engin";
+		ogrenciler[1] = "Derin";
+		ogrenciler[2] = "Salih";
+		ogrenciler[3] = "Ahmet";
+		// ogrenciler[4]="Ali"; hatalı olur çünkü 5 index bilgisi girmedik. hata kodu
+		// ise java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for
+		// length 4
+		//zat arraysDemo.Main.main(Main.java:23) olur
+		for (int i = 0; i < ogrenciler.length; i++) {
+			System.out.println(ogrenciler[i]);
+		}
+		System.out.println("------------------------");
+		for(String ogrenci:ogrenciler) {
+			System.out.println(ogrenci);
+		}
+	}
+
+}
+//Dizilerde uzun uzun tek tek yazmak yerine binlerce satır kodda String[] ogrenciler = new String[kaçsa artık]; kull
+//[] this means array 
+//Java ve C# gibi dillerde indexler 0'dan başlar'

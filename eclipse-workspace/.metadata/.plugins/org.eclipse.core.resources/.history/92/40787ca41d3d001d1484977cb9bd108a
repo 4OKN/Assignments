@@ -1,0 +1,37 @@
+package loopDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// For
+		for (int i = 1; i < 10; i += 2) {
+			System.out.println(i);
+		}
+		System.out.println("For Loop Ended");
+
+		int i = 1;
+		// While
+		while (i < 10) {
+			System.out.println(i);
+			i += 2;
+		}
+		// this will cause infinite loop: work endlessly
+		System.out.println("While Loop Ended");
+
+		// Do=While: gerçek hayatta senaryosu, örneğin bir döngüye girdim, döngü çalışmasa bile database log atmak gerekebilir yani o döngünün çalıştığınai ya da test edildiğine dahil ya
+		int j=100;
+		do {
+			 System.out.println("Logged In");
+			System.out.println(j);
+			j +=2;
+		} while (j < 10);
+		System.out.println("Do-While Loop Ended");
+	}
+
+}
+
+//1'den 10'a kadar ki tek sayıları yazdırmak isteseydim: i+=2 çift sayıları yazdırmak içinse int i=2 olarak başlardım.
+//int i=1; kısmı sayaç tanımı yapar. yani sayacımız birden başlıyor.i<=10 şarttır i 10'dan küçük old.10'da dahil sürece demek
+//i++ ise kaçar kaçar artacağını verdiğimiz yerdir.
+//++ operatörü i'yi bir artır demek ya da i=i+1'de diyebiliriz. Hiç bir fark yok ikisi arasında. Eksiltmek içinde i-- kull.
+//For and While loops are almost similar

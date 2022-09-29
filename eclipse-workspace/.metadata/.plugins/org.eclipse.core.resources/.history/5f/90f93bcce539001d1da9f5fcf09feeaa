@@ -1,0 +1,11 @@
+package oop1;
+
+//PascalCase isimlendirme standardı P ve C büyük yazılır
+public class Product {
+   String name;
+   //fieldler camelCase yazılır
+   double unitPrice;
+   double discount;
+   String imageUrl;
+   int unitsInStock;
+}

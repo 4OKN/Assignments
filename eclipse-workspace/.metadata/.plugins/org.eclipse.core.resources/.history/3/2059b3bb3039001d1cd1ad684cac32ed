@@ -1,0 +1,17 @@
+package variables;
+//reusability
+public class variables {
+
+	public static void main(String[] args) {
+		int ogrenciSayisi = 13;  //camelCase kullanılır değişkenlerde
+		String mesaj ="Öğrenci sayısı : ";
+		System.out.println("mesaj : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+
+	}
+
+}

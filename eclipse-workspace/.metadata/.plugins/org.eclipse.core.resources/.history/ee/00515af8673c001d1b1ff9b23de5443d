@@ -1,0 +1,18 @@
+package loopDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//For
+		for(int i=2;i<10;i+=2) {
+			System.out.println(i);
+		}
+		System.out.println("Döngü Bitti");
+	}
+
+}
+
+//1'den 10'a kadar ki tek sayıları yazdırmak isteseydim: i+=2 çift sayıları yazdırmak içinse int i=2 olarak başlardım.
+//int i=1; kısmı sayaç tanımı yapar. yani sayacımız birden başlıyor.i<=10 şarttır i 10'dan küçük old.10'da dahil sürece demek
+//i++ ise kaçar kaçar artacağını verdiğimiz yerdir.
+//++ operatörü i'yi bir artır demek ya da i=i+1'de diyebiliriz. Hiç bir fark yok ikisi arasında. Eksiltmek içinde i-- kull.
